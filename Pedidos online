@@ -1,0 +1,27 @@
+<section id="pedidos">
+    <h2>Faça seu Pedido Online</h2>
+    <p>Escolha seus lanches favoritos e envie seu pedido diretamente para nós!</p>
+    <form action="processar_pedido.php" method="POST" style="max-width: 600px; margin: auto; text-align: left;">
+        <label for="nome">Seu Nome:</label><br>
+        <input type="text" id="nome" name="nome" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" required style="width: 100%; padding: 10px; margin: 10px 0;"><br>
+
+        <label for="pedido">Selecione seus Lanches:</label><br>
+        <select id="pedido" name="pedido[]" multiple size="5" style="width: 100%; padding: 10px; margin: 10px 0;">
+            <option value="Hambúrguer Clássico">Hambúrguer Clássico</option>
+            <option value="X-Bacon Especial">X-Bacon Especial</option>
+            <option value="Combo Família">Combo Família</option>
+            <option value="Batata Frita Grande">Batata Frita Grande</option>
+            <option value="Milkshake de Chocolate">Milkshake de Chocolate</option>
+        </select><br>
+
+        <label for="observacoes">Observações:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="4" style="width: 100%; padding: 10px; margin: 10px 0;" placeholder="Ex: Sem cebola, com molho extra..."></textarea><br>
+
+        <button type="submit" style="background-color: #ff5722; color: white; padding: 10px 20px; border: none; cursor: pointer;">
+            Enviar Pedido
+        </button>
+    </form>
+</section>
