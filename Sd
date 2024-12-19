@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Lanches Gourmet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+        nav a:hover {
+            background-color: #ff5722;
+        }
+        .banner {
+            text-align: center;
+            padding: 50px;
+            background: url('banner-image.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SD Lanches Gourmet</h1>
+        <p>Os melhores lanches da cidade!</p>
+    </header>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="banner">
+        <h2>Descubra o sabor que conquista</h2>
+        <p>Experimente nossos combos exclusivos!</p>
+    </div>
+    <section id="menu">
+        <h2>Nosso Menu</h2>
+        <p>Hambúrgueres, sanduíches, batatas fritas e muito mais!</p>
+    </section>
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Na SD Lanches Gourmet, nossa missão é oferecer comida de qualidade com atendimento excepcional.</p>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@sd-lanches.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 SD Lanches Gourmet. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
